@@ -7,9 +7,9 @@ import java.util.Set;
 
 public abstract class AbstractLineCounter implements ILineCounter {
 	
-	private int annotationCount = 0;
-	private int blankCount = 0;
-	private int codeCount = 0;
+	protected int annotationCount = 0;
+	protected int blankCount = 0;
+	protected int codeCount = 0;
 
 	public void count(List<File> files) {
 		
